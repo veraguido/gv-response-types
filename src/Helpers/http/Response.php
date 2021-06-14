@@ -23,6 +23,7 @@ class Response
 
     const NO_CACHE = 'Cache-Control: no-cache, must-revalidate, max-age=0';
     const BASIC_AUTH_ACCESS_DENIED = 'WWW-Authenticate: Basic realm="Access denied"';
+    const BEARER_AUTH_ACCESS_DENIED = 'WWW-Authenticate: Bearer realm="Access denied"';
 
     private ?string $contentType;
     private ?string $code;
